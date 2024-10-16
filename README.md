@@ -5,7 +5,7 @@ Grunderna i JavaScript
 Tisdag 15 oktober:
 Övningar 14 oktober: Variabler och data typer:
 
-1 Övning (Lätt):
+## 1 Övning (Lätt):
 Uppgift:
 
 Deklarera tre variabler: firstName, lastName och age.
@@ -16,7 +16,7 @@ Syfte:
 Öva på deklaration och initiering av variabler.
 Använda strängkonkatenering eller template literals.
 
-2 Övning: Byt värden mellan variabler (Lätt)
+## 2 Övning: Byt värden mellan variabler (Lätt)
 Uppgift:
 
 Deklarera två variabler a och b och tilldela dem värdena 5 respektive 10.
@@ -26,7 +26,7 @@ Lösningstips:
 
 Använd en tredje variabel som temporär lagring.
 
-3 Övning: Konkatenering av strängar (Lätt)
+## 3 Övning: Konkatenering av strängar (Lätt)
 Uppgift:
 
 Deklarera tre variabler firstName, middleName och lastName och tilldela dem dina namn.
@@ -36,7 +36,7 @@ Lösningstips:
 
 Använd strängkonkatenering med + eller template literals med backticks `.
 
-4 Övning (Medel):
+## 4 Övning (Medel):
 Uppgift:
 
 Skapa en variabel radius och tilldela den ett numeriskt värde.
@@ -51,7 +51,7 @@ Syfte:
 Använda matematiska operationer och inbyggda matematiska metoder.
 Förstå användningen av const för konstanter som Math.PI.
 
-5 Övning: Typeof-operatorn (Medel)
+## 5 Övning: Typeof-operatorn (Medel)
 Uppgift:
 
 Deklarera variabler av olika datatyper: number, string, boolean, undefined, null, object.
@@ -65,7 +65,7 @@ Diskussion:
 
 typeof null returnerar "object" vilket är ett känt fel i JavaScript. null är egentligen en primitiv datatyp men rapporteras som ett objekt.
 
-6 Övning: Implicit och explicit typkonvertering (Medel)
+## 6 Övning: Implicit och explicit typkonvertering (Medel)
 Uppgift:
 
 Deklarera variablerna x = "5" (string) och y = 3 (number).
@@ -88,7 +88,7 @@ När vi använder + med en sträng och ett tal, sker strängkonkatenering.
 De andra aritmetiska operatorerna (\*, /, -) tvingar JavaScript att konvertera strängen till ett nummer.
 Parenteser påverkar i vilken ordning operationerna utförs.
 
-7 Övning: Skriv ett program för att kontrollera datatypen (Medel)
+## 7 Övning: Skriv ett program för att kontrollera datatypen (Medel)
 Uppgift:
 
 Be användaren att mata in ett värde via prompt().
@@ -100,7 +100,7 @@ Lösningstips:
 Använd isNaN() för att kontrollera om värdet är ett nummer.
 Använd Number() för att försöka konvertera strängen till ett nummer.
 
-8 Övning: Skapa en enkel kalkylator för två tal (Svår)
+## 8 Övning: Skapa en enkel kalkylator för två tal (Svår)
 Uppgift:
 
 Be användaren att ange två tal via prompt().
@@ -113,7 +113,7 @@ Lösningstips:
 Använd switch eller if-else för att hantera val av operation.
 Använd isNaN() för att kontrollera giltigheten av inmatade värden.
 
-9 Övning (Svår):
+## 9 Övning (Svår):
 Uppgift:
 
 Be användaren att ange tre tal via prompt().
@@ -127,7 +127,7 @@ Syfte:
 Introducera enkel felhantering.
 Använda metoder som Number() och toFixed().
 
-10 Övning: Skapa en lista över favoritfilmer (Svår)
+## 10 Övning: Skapa en lista över favoritfilmer (Svår)
 Uppgift:
 
 Deklarera en array favoriteMovies och lägg till tre av dina favoritfilmer som strängar.
@@ -139,7 +139,7 @@ Lösningstips:
 Använd metoder som push() för att lägga till element.
 Kom ihåg att array-index börjar på 0.
 
-11 Övning: Skapa ett objekt för en bok (Svår)
+## 11 Övning: Skapa ett objekt för en bok (Svår)
 Uppgift:
 
 Skapa ett objekt book med egenskaperna title, author, pages och isAvailable.
@@ -152,7 +152,7 @@ Använd punktnotation för att komma åt och ändra egenskaper.
 
 Ytterligare Övningar (För den som vill utmana sig själv)
 
-12 Övning (Avancerad):
+## 12 Övning (Avancerad):
 Uppgift:
 
 Skriv ett program som omvandlar temperatur från Celsius till Fahrenheit.
@@ -164,7 +164,7 @@ Syfte:
 Använda matematiska operationer.
 Öva på in- och utmatning.
 
-13 Övning (Avancerad):
+## 13 Övning (Avancerad):
 Uppgift:
 
 Skapa ett enkelt BMI-kalkylator.
@@ -176,7 +176,7 @@ Syfte:
 Kombinera flera variabler och operationer.
 Hantera flyttal och formattering.
 
-14 Övning: Konvertera mellan olika datatyper (Avancerad)
+## 14 Övning: Konvertera mellan olika datatyper (Avancerad)
 Uppgift:
 
 Be användaren att ange ett värde.
