@@ -125,7 +125,7 @@ console.log("\nÖVNING 9");
     }
 }
 
-console.log("\nÖVNING 10")
+console.log("\nÖVNING 10");
 {
     let favoritFilmer = ["Fast & furious", "Fast & furious 2", "Fast & furious 3"];
     favoritFilmer.push("Fast & furious 4");
@@ -134,3 +134,66 @@ console.log("\nÖVNING 10")
     console.log("Alla favoritfilmer:",favoritFilmer.join(", "));
 }
 
+console.log("\nÖVNING 11");
+
+let bok = {
+    title: "Liftarens guide till galaxen",
+    author: "Douglas Adams",
+    pages: 42,
+    isAvailable: true
+};
+
+function printBookInfo() {
+    console.log(`Titel: ${bok.title}
+Author: ${bok.author}
+Pages: ${bok.pages}
+Available: ${bok.isAvailable}`);
+}
+
+printBookInfo();
+bok.isAvailable = false;
+printBookInfo();
+
+
+
+console.log("\nÖVNING 12 Temperaturomvandling");
+let c = 21;
+let f = c * 9 / 5 + 32;
+console.log(`${c}C är ${f}F.`);
+
+
+console.log("\nÖVNING 13 BMI-kalkylator");
+let langd = parseFloat(prompt("Din längd"));
+let vikt = parseFloat(prompt("Din vikt"));
+let bmi = vikt / langd * langd;
+console.log("Din bmi är", bmi.toFixed(1));
+
+
+
+console.log("\nÖVNING 14 konvertera mellan datatyper")
+let varde = prompt("Ange ett värde av något datatyp");
+// switch (typeof varde) {
+//     case 'string':
+//         varde = String(varde);
+//         break;
+//     case 'boolean':
+//         varde = Boolean(varde);
+//         break;
+//     case 'number':
+//         varde = Number(varde);
+//         break;
+
+//     default:
+//         break;
+// }
+
+// if  (parseFloatvarde)) {varde = Boolean(varde)}
+// else if (varde === Number(varde)) {varde = Number(varde)}
+// else if (varde === String(varde)) {varde = String(varde)}
+
+if (varde == 'true') {varde = true}
+else if (varde == 'false') {varde = false}
+else if (parseFloat(varde) == varde) {varde = parseFloat(varde)}
+
+
+console.log(`Värdet ${varde} är en ${typeof varde}`);
