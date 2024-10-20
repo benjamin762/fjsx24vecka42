@@ -155,7 +155,6 @@ console.log("\nÖVNING 10 Lösenordsvalidering")
         console.log("Ogiltigt lösenord.");
     }
 }
-
 console.log("\nÖVNING 11 Skottårskoll")
 
 let artal = Number(prompt("Ange ett årtal"));
@@ -188,7 +187,6 @@ else if (30 <= bmi) {kategori = "fetma"}
 console.log(`Din BMI är ${bmi.toFixed(1)} (${kategori})`);
 
 }//if false
-
 console.log("\nÖVNING 13 Logisk sanningtabell")
 let a,b;
 let tabell ="A\t\tB\t\tA&&B\tA||B\t!A\n";
@@ -202,3 +200,36 @@ a = false; b = false;
 tabell += `${a}\t${b}\t${a&&b}\t${a||b}\t${!a}`;
 
 console.log(tabell);
+
+
+console.log("\nÖVNING 14 FizzBuzz");
+for (let i = 1; i <= 30; i++) {
+    if (i % 5 === 0 && i% 3 === 0) {
+        console.log("FizzBuzz");
+    } else if (i % 5 === 0) {
+        console.log("Buzz");
+    } else if (i % 3 === 0) {
+        console.log("Fizz");
+    } else {
+        console.log(i);
+    }
+}
+
+
+console.log("\nÖVNING 15 Nummergissningsspel");
+let nummer, gissning, antalGissningar;
+
+nummer = Math.floor(Math.random() * 100) + 1;
+
+gissning = parseInt(prompt("Gissa ett tal mellan 1 och 100."));
+console.log(nummer, gissning);  
+antalGissningar = 1;
+while (gissning !== nummer) {
+    if (gissning > nummer) {
+        gissning = parseInt(prompt("För högt, gissa lägre."));
+    } else if (gissning < nummer) {
+        gissning = parseInt(prompt("För lågt, gissa högre."));
+    }   
+    antalGissningar++;
+}
+alert(`Du vann. Du har gissat rätt. Talet var ${nummer}. Du gissade ${antalGissningar} gånger.`);
