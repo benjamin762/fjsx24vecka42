@@ -27,22 +27,67 @@ console.log("-- String --");
 // console.log(alskar);
 
 
-console.log("\nÖVNING 5 trim substring");
-let otrimmat = prompt("Ange en sträng med extra mellanslag i början och slutet.");
-let trimmat = otrimmat.trim();
-let femForsta = trimmat.substring(0, 6);    
-console.log(femForsta);
+// console.log("\nÖVNING 5 trim substring");
+// let otrimmat = prompt("Ange en sträng med extra mellanslag i början och slutet.");
+// let trimmat = otrimmat.trim();
+// let femForsta = trimmat.substring(0, 6);    
+// console.log(femForsta);
 // Skillnad slice och substring? Ganska lika, olika vid negativa tal.
-
 
 
 
 
 // console.log("-- Number --");
 // console.log("\nÖVNING 6 toFixed");
+// let talMedMangaDecimaler = parseFloat(prompt("Ange ett flyttal med många decimaler."));
+// let strangMedTvaDecimaler = talMedMangaDecimaler.toFixed(2);
+// console.log("Talet med två decimaler:", strangMedTvaDecimaler);
+
 // console.log("\nÖVNING 7 parseInt parseFloat");
+// let strangMedTal = prompt("Ange en sträns som innehåller ett tal .\nT. ex. 123abc", "123abc");
+// let heltalsdelen = parseInt(strangMedTal);
+// let flyttalsdelen = parseFloat(strangMedTal);
+// if (isNaN(heltalsdelen)) {
+//     console.log("Inte ett tal.");
+// }
+// else {
+//     console.log("Heltalsdelen", heltalsdelen);
+//     if (flyttalsdelen != heltalsdelen) {
+//         console.log("Flyttalsdelen", flyttalsdelen);
+//     }
+// }
+
 // console.log("\nÖVNING 8 isNaN isFinite");
+// function giltigtAndligtTal(x) {
+//     if (!isNaN(x) && isFinite(x)) {
+//         console.log("Giltigt ändligt tal.");
+//     }
+//     else if (isNaN(x)) {
+//         console.log("Inte ett tal.");
+//     } else if (!isFinite(x)) {
+//         console.log ("Oändligt tal.");
+//     }
+// }
+
+// console.log("123"); giltigtAndligtTal(123);
+// console.log('"123"'); giltigtAndligtTal("123");
+// console.log("123.456"); giltigtAndligtTal(123.456);
+// console.log("NaN"); giltigtAndligtTal(NaN);
+// console.log("Infinity"); giltigtAndligtTal(Infinity);
+// console.log("undefined"); giltigtAndligtTal(undefined);
+// console.log("null"); giltigtAndligtTal(null);
+
+
+
+
 // console.log("\nÖVNING 9 toPrecision toExponential");
+// let tal = parseFloat(prompt("Ange ett tal"));
+// console.log(`toPrecision(3) ${tal.toPrecision(3)}
+// toExponential(2) ${tal.toExponential(2)}`);
+
+
+
+
 
 // console.log("-- BigInt --");
 // console.log("\nÖVNING 10 BigInt");
