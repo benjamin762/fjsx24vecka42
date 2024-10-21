@@ -25,3 +25,38 @@ console.log("-- String --");
 // console.log("Innehåller \"Programmering\"", alskar.includes("Programmering"));
 // alskar.replace("Programmering", "JavaScript");
 // console.log(alskar);
+
+
+console.log("\nÖVNING 5 trim substring");
+let otrimmat = prompt("Ange en sträng med extra mellanslag i början och slutet.");
+let trimmat = otrimmat.trim();
+let femForsta = trimmat.substring(0, 6);    
+console.log(femForsta);
+// Skillnad slice och substring? Ganska lika, olika vid negativa tal.
+
+
+
+
+
+// console.log("-- Number --");
+// console.log("\nÖVNING 6 toFixed");
+// console.log("\nÖVNING 7 parseInt parseFloat");
+// console.log("\nÖVNING 8 isNaN isFinite");
+// console.log("\nÖVNING 9 toPrecision toExponential");
+
+// console.log("-- BigInt --");
+// console.log("\nÖVNING 10 BigInt");
+// console.log("\nÖVNING 11 BigInt operatorer");
+
+// console.log("-- Boolean --");
+// console.log("\nÖVNING 12 Omvandla till boolean");
+// console.log("\nÖVNING 13 Logiska operatorer");
+
+// console.log("-- Undefined och null --");
+// console.log("\nÖVNING 14 Skillnaden mellan undefined och null");
+
+// console.log("-- Object --");
+// console.log("\nÖVNING 15 Använda Object.keys(), Object.values(), Object.entries()");
+// console.log("\nÖVNING 16 Object.assign()");
+// console.log("\nÖVNING 17 Object.freeze Object.seal()");
+// console.log("\nÖVNING 18 Object.create()");
