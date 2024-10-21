@@ -91,7 +91,21 @@ console.log("-- String --");
 
 // console.log("-- BigInt --");
 // console.log("\nÖVNING 10 BigInt");
+// let bigA = BigInt("13245678901234567890");
+// let bigB = BigInt("9");
+// let produkt = bigA * bigB;
+// console.log(produkt);
+
 // console.log("\nÖVNING 11 BigInt operatorer");
+// let a = BigInt("437838927589374893729279");
+// let b = BigInt(4683217841267942);
+// console.log(`a ${a} ${typeof a}
+// b ${b} ${typeof b}
+// a+b ${a+b} ${typeof (a+b)}
+// a-b ${a-b} ${typeof (a-b)}
+// a*b ${a*b} ${typeof (a*b)}
+// a/b ${a/b} ${typeof (a/b)}
+// a%b ${a%b} ${typeof (a%b)}`);
 
 // console.log("-- Boolean --");
 // console.log("\nÖVNING 12 Omvandla till boolean");
